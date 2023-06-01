@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FollowButton from "./FollowButton";
 import Styles from "./Follow.module.css"
-
+import {VscVerifiedFilled} from 'react-icons/vsc'
 export default function FollowBox() {
 
 
@@ -16,17 +16,17 @@ export default function FollowBox() {
         },
         {
           image:
-            "https://pbs.twimg.com/profile_images/1570184150526615553/OwB7Ut_T_400x400.jpg",
-          name: "Arunma Oteh",
-          userName: "@aoteh",
+            "https://pbs.twimg.com/profile_images/977218088662745088/f-GpMOPN_400x400.jpg",
+          name: "Adah Sharma"  ,
+          userName: "@adah_sharma",
           dots: "Follow",
           dots3: "Following",
         },
         {
           image:
-            "https://pbs.twimg.com/profile_images/1628790075940126721/jhpFOmmY_400x400.jpg",
-          name: "Justin Mauldin",
-          userName: "@jmauldn",
+            "https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg",
+          name:  " Elon Musk",
+          userName: "@elonmusk",
           dots: "Follow",
           dots3: "Following",
         },
@@ -63,22 +63,22 @@ export default function FollowBox() {
   return (
     <>
       <div className={Styles.mainbox}>
-        <h3 style={{paddingLeft:"1rem",fontSize:"30px"}}>Who To Follow </h3>
+        <h3 style={{paddingLeft:"1rem",fontSize:"30px"}}>Who to follow </h3>
 
         {displayShows.map((element) => (
           <div className={Styles.contentmain}>
             <div className={Styles.content}>
-              <img
+            <p> <img
                 className={Styles.image}
                 src={element.image}
                 width="60em"
                 height="60em"
                 
-              />
+              /></p> 
             </div>
             <div className={Styles.para}>
-              <p>{element.name}</p>
-              <p>{element.userName}</p>
+              <p className={Styles.username}>{element.name}<VscVerifiedFilled className={Styles.vericon} size={20} color="royalblue"/></p>
+              <p className={Styles.username2}>{element.userName}</p>
             </div>
             <div style={{ paddingTop: "1.5em" }}>
               <FollowButton />
