@@ -1,0 +1,87 @@
+.mainbox{
+    position: sticky;
+    background-color: rgb(255, 251, 251);
+    height: 95%;
+    margin: 6%;
+    border: 1px solid;
+    margin-top: 1em;
+    border-radius: 1rem;
+    border: #f2f2f2;
+    width: 22vw;
+    border: 2px solid rgb(245, 245, 249);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contentmain{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 86%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin: 20px;
+    margin-left: 2%;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+}
+.contentmain:hover{
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: .3s;
+}
+
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.content1{
+    font-weight: bolder;
+ }
+.ShowMore{
+    color: rgb(24, 141, 187);
+    padding-left: 35%;
+    cursor: pointer;
+    font-size: 1.3rem;
+    
+}
+.ShowMore:hover{
+    background-color:rgb(218 218 218 );
+    height: 7.8vh;
+    border-radius: 20px;
+    
+}
+
+.image{
+    border-radius: 100px;
+    margin-top: 10px;
+
+}
+.para{
+    margin: 0px;
+}
+.vericon{
+   
+    /* position: relative; */
+    top: 4px;
+    left: 2px;
+}
+.username{
+    font-weight: 800;
+
+}
+.username2{
+
+    width: fit-content;
+    /* position: relative; */
+    /* bottom: 18px; */
+}
+
+@media only screen and (min-width: 200px) and (max-width : 700px) {
+    .box{
+        display: none;
+        width: 0%;
+    }
+}

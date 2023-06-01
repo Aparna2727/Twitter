@@ -1,0 +1,200 @@
+/* main container style */
+
+.CreateAccount {
+                height: 90vh;
+                max-width: 40vw;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2%;
+                border-radius: 20px;
+                background-color: white;
+                position: relative;
+                flex-direction: column;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            /* h1 heading style */
+            .CreateAccount h1 {
+        
+                width: 65%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: start;
+                font-size: 50px;
+                margin-top: 10px;
+                font-weight: 700;
+            }
+
+/* react icons style */
+
+            .HiX{
+                position: absolute;
+                top: 5px;
+                left:10px;
+            }
+
+/* background color */
+            body {
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+      /* input tag div style */
+            .inname {
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            .inemail {
+                margin-top: 10px;
+                text-align: center;
+            }
+            .inphone {
+                margin-top: 10px;
+                text-align: center;
+            }
+/* input tag style */
+            .input{
+                width: 60%;
+                padding: 25px;
+                font-size: inherit;
+                outline: none;
+                border-radius: 10px;
+                color: black;
+                font-size: 20px;
+            }
+
+         /* date contet letters style */
+            .Date_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                width: 82%;
+                margin-left: auto;
+                
+            }
+
+            .Date_content h3 {
+                font-size: 30px;
+                width: fit-content;
+            }
+
+            .Date_content p {
+            
+                width: 80%;
+                font-size: 20px;
+                text-align: start;
+                position: relative;
+                bottom: 30px;
+                font-weight: 400;
+                
+            }
+
+
+
+            .datemonth{
+                height:75px;
+                margin: 10px;
+                width: 30%;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+             .dateyear{
+                height:75px;
+                margin: 10px;
+                width: 18%;
+                border: 2px solid black;
+                border-radius: 10px;
+             }
+
+            .date{
+                height:75px;
+                margin: 10px;
+                width: 15%;
+                border: 1px solid black;
+                border-radius: 10px;
+                
+            }
+             .date:focus{
+                box-shadow: 0 0 8px 0 dodgerblue;
+                transition: .3s;
+             }
+             .datemonth:focus{
+                box-shadow: 0 0 8px 0 dodgerblue;
+                transition: .3s;
+             }
+             .dateyear:focus{
+                box-shadow: 0 0 8px 0 dodgerblue;
+                transition: .3s;
+             }
+
+            .Date:focus {
+            
+                box-shadow: 0 0 8px 0 dodgerblue;
+                transition: .3s;
+            }
+
+
+            
+            input[type=text]:focus {
+            
+                box-shadow: 0 0 8px 0 dodgerblue;
+                transition: .3s;
+            }
+
+         
+
+            .indate {
+            
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                width: 102%;
+            }
+
+            
+        .Date {
+            width: 60%;
+            height: 50px; 
+            box-shadow: 0 0 8px 0 dodgerblue;
+            transition: .3s;
+            font-size: 30px;
+            outline: none;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            bottom: 20px;
+        }
+            .btn{
+                position: absolute;
+                width: 70%;
+                padding: 20px; 
+                border-radius: 40px;
+                cursor: pointer;
+                font-size: 30px;
+                background: black;
+                align-items: center;
+                color:#fff;
+                bottom: 0; 
+                margin-bottom: 15px;
+              
+            }
+            .btnbox{
+               
+                height:10vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            button{
+                text-align: center;
+            }
+            @media only screen and (max-width:768px){
+                .CreateAccount{
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+            }
